@@ -26,5 +26,28 @@
 .heading{
   margin-top :30px
 }
- 
+ @media screen and (min-width:900px) and (max-width:1270px){
+  .input_box{
+    padding: 0px 300px 0px 300px;
+   
+  }
+ }
+ @media screen and (min-width:771px) and (max-width:900px){
+  .input_box{
+    padding: 0px 150px 0px 150px;
+   
+  }
+ }
+ @media screen and (min-width:535px) and (max-width:771px){
+  .input_box{
+    padding: 0px 100px 0px 100px;
+   
+  }
+ }
+ @media screen and (min-width:100px) and (max-width:535px){
+  .input_box{
+    padding: 0px 50px 0px 50px;
+   
+  }
+ }
  

@@ -30,7 +30,7 @@ function App() {
   return (
     <>
       <h1 className="heading">Speech to Text </h1>
-      <div className="input_box">
+      <div className="input_box ">
         <p className="input_box--text">{transcript}</p>
       </div>
       <div className="card">

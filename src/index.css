@@ -29,10 +29,9 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
-  line-height: 1.1;
- 
-}
+  font-size: 1.2em;
+  font-weight:100
+ }
 
 button {
   border-radius: 8px;
