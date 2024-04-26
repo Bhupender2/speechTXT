@@ -1,35 +1,44 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import { IoCloudDownloadOutline } from "react-icons/io5";
+import { TiMicrophoneOutline } from "react-icons/ti";
+import { IoStopCircleOutline } from "react-icons/io5";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+      <h1>Speech to Text </h1>
+      <div className="input_box">
+        <p className="input_box--text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+          risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec,
+          ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula
+          massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci
+          nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl
+          sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae,
+          consequat in, pretium a, enim. Pellentesque congue. Ut in risus
+          volutpat libero pharetra tempor. Cras vestibulum bibendum augue.
+          Praesent egestas leo in pede. Praesent blandities sed, dolor. Cras elementum ultrices diam. Maecenas ligula
+          massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci
+          nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl
+          sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae,
+          consequat in, pretium a, enim. Pellentesque congue. Ut in risus
+          volutpat libero pharetra tempor. Cras vestibulum bibendum augue.
+          Praesent egestas leo in pede. Praesent blandit
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div className="card">
+        <button>
+          <TiMicrophoneOutline size="20px" />
+        </button>
+        <button>
+          <IoStopCircleOutline size="20px" />
+        </button>
+        <button>
+          <IoCloudDownloadOutline size="20px" />
+        </button>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
