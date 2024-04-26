@@ -12,16 +12,19 @@
   gap: 10px
 }
 .input_box{
-  padding: 0px 400px 0px 400px
+  padding: 0px 400px 0px 400px;
+ 
 }
 .input_box--text{
   border:3px solid #27272A;
   padding: 10px;
   border-radius:10px;
   text-align: left;
-  min-height:400px
+  min-height:400px;
+  background-color: #1A1A1A
 }
 .heading{
   margin-top :30px
 }
+ 
  
